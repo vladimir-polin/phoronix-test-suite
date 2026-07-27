@@ -173,7 +173,7 @@ class pts_result_file
 		{
 			return $this->file_location;
 		}
-		else if($this->save_identifier)
+		else if($this->save_identifier && defined('PTS_SAVE_RESULTS_PATH'))
 		{
 			return PTS_SAVE_RESULTS_PATH . $this->save_identifier . '/composite.xml';
 		}

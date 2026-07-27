@@ -911,6 +911,9 @@ class phodevi_cpu extends phodevi_device_interface
 						case '0x010':
 							$new_info .= ' Olympus';
 							break;
+						case '0x011':
+							$new_info .= ' Rigel';
+							break;
 					}
 				}
 				else if($implementer == '0x46')

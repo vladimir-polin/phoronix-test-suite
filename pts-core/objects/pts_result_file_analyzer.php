@@ -768,6 +768,7 @@ class pts_result_file_analyzer
 			'cpu.power' => 'CPU Power Consumption',
 			'gpu.power' => 'GPU Power Consumption',
 			'sys.power' => 'System Power Consumption',
+			'sys.temp' => 'System Temp',
 			'cpu.peak-freq' => 'CPU Peak Freq',
 			'cpu.usage' => 'CPU Usage',
 			'cpu.temp' => 'CPU Temp',
